@@ -3,8 +3,8 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-23T12:42:29.162Z",
-  "sourceCommit": null,
+  "checkedAt": "2026-10-23T12:43:31.510Z",
+  "sourceCommit": "d75a66b74b69da4424876ea49ae38ea131eb9116",
   "sourceDigest": "bd608eb4f09df551572a3943be0109d1edeb663c11c39b76591a4c36ba01f8ef",
   "environment": {
     "platform": "linux (local WSL Ubuntu)",
@@ -73,7 +73,7 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-23T12:42:29.164Z",
+      "checkedAt": "2026-10-23T12:43:31.510Z",
       "reason": "独立生产实例实际完成 72 个视口/语言/页面检查和主要交互检查，已停止本次实例。"
     }
   ],
