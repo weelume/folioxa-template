@@ -3,15 +3,15 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-23T12:43:31.510Z",
-  "sourceCommit": "d75a66b74b69da4424876ea49ae38ea131eb9116",
-  "sourceDigest": "bd608eb4f09df551572a3943be0109d1edeb663c11c39b76591a4c36ba01f8ef",
+  "checkedAt": "2026-10-23T13:42:18.874Z",
+  "sourceCommit": "15e13d106343cd61ad12a285bf5612438e5992f6",
+  "sourceDigest": "f44e40b51f1a32da2efea5706ba95df698fff2cde2c1a7bbbfb6d0c5244c1da4",
   "environment": {
     "platform": "linux (local WSL Ubuntu)",
     "arch": "x64",
     "node": "v24.16.0",
     "packageManager": "9.15.4",
-    "cleanDirectory": true,
+    "cleanDirectory": false,
     "localGitClone": false
   },
   "checks": [
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-23T12:40:28.848Z",
-      "finishedAt": "2026-10-23T12:40:31.026Z"
+      "startedAt": "2026-10-23T13:40:36.936Z",
+      "finishedAt": "2026-10-23T13:40:39.080Z"
     },
     {
       "id": "lint",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-23T12:40:31.026Z",
-      "finishedAt": "2026-10-23T12:40:36.843Z"
+      "startedAt": "2026-10-23T13:40:39.080Z",
+      "finishedAt": "2026-10-23T13:40:41.819Z"
     },
     {
       "id": "test",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-23T12:40:36.843Z",
-      "finishedAt": "2026-10-23T12:40:37.573Z"
+      "startedAt": "2026-10-23T13:40:41.819Z",
+      "finishedAt": "2026-10-23T13:40:42.554Z"
     },
     {
       "id": "build",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-23T12:40:37.573Z",
-      "finishedAt": "2026-10-23T12:40:55.277Z"
+      "startedAt": "2026-10-23T13:40:42.554Z",
+      "finishedAt": "2026-10-23T13:41:01.830Z"
     }
   ],
   "services": [
@@ -73,14 +73,15 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-23T12:43:31.510Z",
-      "reason": "独立生产实例实际完成 72 个视口/语言/页面检查和主要交互检查，已停止本次实例。"
+      "checkedAt": "2026-10-23T13:42:18.874Z",
+      "reason": "本轮PC/iPad/H5动态检查已完成，专用预览进程已停止。构建后另做宿主运行检查。"
     }
   ],
   "limitations": [
-    "完整原站动效逐项对照未完成：参考页面交互自动化反复超时；已实测三端作品流持续运行和聚焦暂停。",
-    "MiSans / Poppins 本地托管，图片内嵌英文未全部汉化。",
-    "原站图片和标识的商业再分发授权未确认，listed=false。",
-    "部分 bento 插画、标题拆词节奏和循环速度仍有差异，不能标记完整复刻验收通过。"
+    "原站全部页面三端逐帧对照未完成；不能标记完整动效复刻验收通过。",
+    "原站Lenis滚轮惯性未复现；页面遮罩的百分比语义与Framer存在待比较项。",
+    "菜单节奏、按钮细节、FAQ图标旋转与部分插画仍待原站动态核对。",
+    "触屏实机与系统减少动态效果未在浏览器实测；仅代码提供支持。",
+    "图片内嵌英文未全部汉化；原站图片商业再分发授权未确认，listed=false。"
   ]
 }
