@@ -1,0 +1,91 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌配置",
+      "description": "修改后检查中英文与受影响设备",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/folioxa/config/brand.ts",
+          "kind": "file",
+          "purpose": "品牌配置"
+        }
+      ],
+      "constraints": [
+        "保留双语和原生可访问属性",
+        "不新增未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容",
+      "description": "修改后检查中英文与受影响设备",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/folioxa/content",
+          "kind": "directory",
+          "purpose": "双语内容"
+        }
+      ],
+      "constraints": [
+        "保留双语和原生可访问属性",
+        "不新增未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题与三端布局",
+      "description": "修改后检查中英文与受影响设备",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/folioxa/theme.css",
+          "kind": "file",
+          "purpose": "主题与三端布局"
+        }
+      ],
+      "constraints": [
+        "保留双语和原生可访问属性",
+        "不新增未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面与交互",
+      "description": "修改后检查中英文与受影响设备",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/folioxa/pages",
+          "kind": "directory",
+          "purpose": "页面与交互"
+        }
+      ],
+      "constraints": [
+        "保留双语和原生可访问属性",
+        "不新增未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    }
+  ]
+}

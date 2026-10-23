@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile,access} from 'node:fs/promises';
+const root=new URL('../',import.meta.url);const read=p=>readFile(new URL(p,root),'utf8');
+test('模板路由包含原站全页且无重复',async()=>{const t=JSON.parse(await read('.tpl/template.json'));const p=t.surfaces[0].pages;assert.equal(p.length,9);assert.equal(new Set(p.map(x=>x.slug)).size,p.length);for(const x of p){assert.ok(x.title);assert.ok(x.localizedTitles.en);}assert.deepEqual(t.surfaces[0].locales,['zh','en']);});
+test('图片源均已本地交付',async()=>{const urls=JSON.parse(await read('.tpl/docs/assets.json'));for(const url of urls)await access(new URL('public/templates/folioxa/media/'+url.split('/').at(-1),root));});
+test('政策段落与中英文对齐且没有缺失',async()=>{for(const name of ['privacy-policy','terms-of-service']){const rows=JSON.parse(await read('src/features/site-templates/catalog/folioxa/content/'+name+'.json'));assert.ok(rows.length>30);for(const row of rows){assert.ok(row.zh.trim());assert.ok(row.en.trim());}}});

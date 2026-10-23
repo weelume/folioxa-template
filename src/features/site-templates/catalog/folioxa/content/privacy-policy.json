@@ -1,0 +1,182 @@
+[
+  {
+    "tag": "h3",
+    "en": "Introduction",
+    "zh": "简介"
+  },
+  {
+    "tag": "h5",
+    "en": "Purpose of the Policy",
+    "zh": "政策目的"
+  },
+  {
+    "tag": "p",
+    "en": "This Privacy Policy outlines how Folioxa collects, uses, discloses, and protects your information when you visit our website or interact with our services. It is designed to help you understand the types of data we collect, why we collect it, and how we use and manage that information. By making our data practices transparent, we aim to foster trust and ensure compliance with applicable data protection laws.",
+    "zh": "本政策说明，当你访问网站或使用服务时，Folioxa 如何收集、使用、披露和保护信息，并帮助你理解收集的数据类型、原因及管理方式。通过公开数据处理方式，建立信任并遵守适用的数据保护法律。"
+  },
+  {
+    "tag": "h5",
+    "en": "Scope of Coverage",
+    "zh": "适用范围"
+  },
+  {
+    "tag": "p",
+    "en": "This policy applies to all visitors, users, and others who access our website or use our services, regardless of their physical location or device used. It covers all data interactions across our platforms, including our primary website, contact forms, email communications, and third-party service integrations that collect or process data on our behalf.",
+    "zh": "本政策适用于访问网站或使用服务的所有访问者和用户，不受所在地区或设备限制，覆盖网站、联系表单、电子邮件，以及代表我们处理数据的第三方集成。"
+  },
+  {
+    "tag": "h5",
+    "en": "Consent",
+    "zh": "同意"
+  },
+  {
+    "tag": "p",
+    "en": "By using our website and services, you consent to the collection and use of your information as described in this Privacy Policy. If you do not agree with the practices outlined here, we recommend discontinuing use of our services. Continued use of our website following the publication of updates constitutes your acceptance of those changes.",
+    "zh": "使用网站和服务表示你同意本政策描述的信息处理方式。如不同意，请停止使用。政策更新后继续使用网站表示接受更新。"
+  },
+  {
+    "tag": "h3",
+    "en": "Information We Collect",
+    "zh": "我们收集的信息"
+  },
+  {
+    "tag": "h5",
+    "en": "Personal Information",
+    "zh": "个人信息"
+  },
+  {
+    "tag": "p",
+    "en": "We may collect personally identifiable information such as your full name, email address, phone number, job title, company name, and any other details you provide voluntarily through our contact forms or communication channels. This information is collected when you submit inquiries, request quotes, subscribe to newsletters, or engage in any other form of communication with us.",
+    "zh": "我们可能收集你通过联系表单或沟通渠道自愿提供的姓名、邮箱、电话、职位、公司及其他信息，包括咨询、报价、订阅及其他联系时提供的资料。"
+  },
+  {
+    "tag": "h5",
+    "en": "Non-Personal Information",
+    "zh": "非个人信息"
+  },
+  {
+    "tag": "p",
+    "en": "Non-personal information includes data that does not directly identify you but provides insights into your usage of our website. This may include your browser type, operating system, language preferences, referring URLs, and device information. This data helps us analyze trends, administer the site, and improve user experience.",
+    "zh": "非个人信息不会直接识别你的身份，可能包括浏览器、操作系统、语言偏好、来源网址与设备信息，用于分析趋势、管理网站和改进体验。"
+  },
+  {
+    "tag": "h5",
+    "en": "Information Collect Automatically",
+    "zh": "自动收集的信息"
+  },
+  {
+    "tag": "p",
+    "en": "We use cookies, tracking pixels, and third-party analytics tools like Google Analytics to collect information about your interaction with our site. This includes pages visited, time spent on each page, user flow, and interactions with site features. These tools help us understand visitor behavior and optimize our site accordingly.",
+    "zh": "参考政策描述通过 Cookie、追踪像素和第三方分析工具收集访问页面、停留时间、访问路径及功能交互，以理解行为并优化网站；此模板演示本身不启用这些分析服务。"
+  },
+  {
+    "tag": "h3",
+    "en": "How We Use Your Information",
+    "zh": "信息用途"
+  },
+  {
+    "tag": "h5",
+    "en": "To Provide and Maintain Our Services",
+    "zh": "提供及维护服务"
+  },
+  {
+    "tag": "p",
+    "en": "Your information is essential for us to deliver the services you request. We use it to process your inquiries, manage project communications, create client accounts, and fulfill our contractual obligations. Without this information, we may be unable to provide personalized service or maintain consistent communication.",
+    "zh": "信息用于处理咨询、管理项目沟通、创建客户账户及履行约定义务。缺少必要信息时，可能无法提供个性化服务或保持沟通。"
+  },
+  {
+    "tag": "h5",
+    "en": "To Communicate with You",
+    "zh": "与你沟通"
+  },
+  {
+    "tag": "p",
+    "en": "We may use your contact information to send you service-related messages, respond to questions, deliver project updates, or provide administrative notices. With your consent, we may also send promotional materials, newsletters, and information about new offerings or features that may interest you.",
+    "zh": "联系方式可能用于回复问题、发送服务消息、项目进度和管理通知。在获得同意后，也可能用于营销材料、通讯及新服务信息。"
+  },
+  {
+    "tag": "h5",
+    "en": "To Improve User Experience",
+    "zh": "改善用户体验"
+  },
+  {
+    "tag": "p",
+    "en": "We use the data we collect to analyze how our website is being used and to identify areas for improvement. By understanding user behavior, we can refine our content, streamline navigation, and ensure the website functions seamlessly across devices. Your feedback and behavioral data inform design and development decisions that enhance overall usability.",
+    "zh": "使用数据帮助理解网站使用情况、发现改进空间、调整内容与导航，确保不同设备上的顺畅体验。反馈与行为信息可用于设计和开发决策。"
+  },
+  {
+    "tag": "h3",
+    "en": "Sharing and Disclosure",
+    "zh": "共享与披露"
+  },
+  {
+    "tag": "h5",
+    "en": "Service Providers and Partners",
+    "zh": "服务提供商与合作伙伴"
+  },
+  {
+    "tag": "p",
+    "en": "We may share your information with third-party service providers who assist us in hosting, maintaining, and analyzing our website and communications. These partners are contractually obligated to safeguard your information and only use it for the purposes specified by us.",
+    "zh": "可能与协助托管、维护、分析网站和沟通的第三方服务商共享信息。合作方应按约定保护信息，仅用于指定目的。"
+  },
+  {
+    "tag": "h5",
+    "en": "For Legal Requirements",
+    "zh": "法律要求"
+  },
+  {
+    "tag": "p",
+    "en": "We may disclose your personal information if required to do so by law or in response to valid legal processes such as subpoenas, court orders, or government requests. We also reserve the right to disclose information to protect our legal rights, prevent fraud, and ensure the security of our users and the public.",
+    "zh": "依法或应法院命令、传票和政府请求等有效法律程序，可能披露信息；也可能为保护合法权益、防止欺诈和维护安全而披露。"
+  },
+  {
+    "tag": "h5",
+    "en": "In Business Transfers",
+    "zh": "业务转让"
+  },
+  {
+    "tag": "p",
+    "en": "In the event that Folioxa is involved in a merger, acquisition, reorganization, or sale of assets, your information may be transferred as part of the business transaction. We will ensure that any new entity handling your data is bound by privacy obligations consistent with this policy.",
+    "zh": "如 Folioxa 涉及合并、收购、重组或资产出售，信息可能随交易转让；接收方应承担与本政策一致的隐私义务。"
+  },
+  {
+    "tag": "h3",
+    "en": "Data Security",
+    "zh": "数据安全"
+  },
+  {
+    "tag": "h5",
+    "en": "How We Protect Your Data",
+    "zh": "如何保护数据"
+  },
+  {
+    "tag": "p",
+    "en": "We implement industry-standard security measures, including encryption, firewalls, and secure access controls, to protect your personal data from unauthorized access, disclosure, alteration, or destruction. Our internal processes are designed to minimize data exposure and mitigate potential security risks.",
+    "zh": "参考政策描述采用加密、防火墙与访问控制等措施，防止未经授权的访问、披露、更改或损毁，并通过内部流程减少信息暴露和风险。实际生产部署需另行落实安全措施。"
+  },
+  {
+    "tag": "h3",
+    "en": "Third-Party Links and Services",
+    "zh": "第三方链接和服务"
+  },
+  {
+    "tag": "h5",
+    "en": "External Websites",
+    "zh": "外部网站"
+  },
+  {
+    "tag": "p",
+    "en": "Our website may contain links to other websites not operated by Folioxa. We are not responsible for the privacy practices or the content of these external sites. We encourage users to review the privacy policies of any third-party sites they visit.",
+    "zh": "网站可能含有非 Folioxa 运营的外部链接。我们不对其内容和隐私实践负责，建议访问前阅读第三方隐私政策。"
+  },
+  {
+    "tag": "h5",
+    "en": "Embedded Content",
+    "zh": "嵌入内容"
+  },
+  {
+    "tag": "p",
+    "en": "Articles or pages on our website may include embedded content (e.g., videos, images, articles) from other websites. This content behaves in the same way as if the visitor had visited the original website, which may collect data or use cookies independently.",
+    "zh": "页面可能包含其他网站的视频、图片或文章等嵌入内容；这些内容可能按原网站的方式独立收集信息或使用 Cookie。"
+  }
+]

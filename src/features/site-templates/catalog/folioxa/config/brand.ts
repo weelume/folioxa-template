@@ -1,0 +1,1 @@
+export const brand = { name: 'Folioxa', designer: { zh: 'Thomas Adams', en: 'Thomas Adams' }, role: { zh: '网页设计师', en: 'Framer Designer' }, email: 'hello@thomas.design', phone: '+1 (510) 679 4500', year: 2026, logo: '/templates/folioxa/media/HWJZdzhZTUi6ESd7Xk1flHmYI.png' };

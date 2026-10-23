@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-23T12:42:29.162Z",
+  "sourceCommit": null,
+  "sourceDigest": "bd608eb4f09df551572a3943be0109d1edeb663c11c39b76591a4c36ba01f8ef",
+  "environment": {
+    "platform": "linux (local WSL Ubuntu)",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "9.15.4",
+    "cleanDirectory": true,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-23T12:40:28.848Z",
+      "finishedAt": "2026-10-23T12:40:31.026Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-23T12:40:31.026Z",
+      "finishedAt": "2026-10-23T12:40:36.843Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-23T12:40:36.843Z",
+      "finishedAt": "2026-10-23T12:40:37.573Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-23T12:40:37.573Z",
+      "finishedAt": "2026-10-23T12:40:55.277Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-23T12:42:29.164Z",
+      "reason": "独立生产实例实际完成 72 个视口/语言/页面检查和主要交互检查，已停止本次实例。"
+    }
+  ],
+  "limitations": [
+    "完整原站动效逐项对照未完成：参考页面交互自动化反复超时；已实测三端作品流持续运行和聚焦暂停。",
+    "MiSans / Poppins 本地托管，图片内嵌英文未全部汉化。",
+    "原站图片和标识的商业再分发授权未确认，listed=false。",
+    "部分 bento 插画、标题拆词节奏和循环速度仍有差异，不能标记完整复刻验收通过。"
+  ]
+}

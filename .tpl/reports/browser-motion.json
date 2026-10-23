@@ -1,0 +1,29 @@
+[
+  {
+    "width": 1440,
+    "running": true,
+    "pauseOnFocus": true,
+    "before": 69.68698120117188,
+    "after": 49.84770202636719,
+    "pausedBefore": 49.20565414428711,
+    "pausedAfter": 49.20565414428711
+  },
+  {
+    "width": 834,
+    "running": true,
+    "pauseOnFocus": true,
+    "before": -16.724624633789062,
+    "after": -37.203880310058594,
+    "pausedBefore": -37.8433952331543,
+    "pausedAfter": -37.8433952331543
+  },
+  {
+    "width": 390,
+    "running": true,
+    "pauseOnFocus": true,
+    "before": -13.495573043823242,
+    "after": -29.19765853881836,
+    "pausedBefore": -30.216665267944336,
+    "pausedAfter": -30.216665267944336
+  }
+]
